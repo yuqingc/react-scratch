@@ -1,5 +1,5 @@
-# React Scratch
+# react-scratch
 
 - `yarn` or `npm install`
 
-- `yarn run start` of `npm run start`
+- `yarn run start` or `npm run start`
