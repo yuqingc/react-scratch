@@ -12,4 +12,4 @@ This repository keeps all packages up to date with the latest version.
 
 - react v16.4.1
 
-- webpack v4.14.0
+- webpack v4.15.1
