@@ -1,5 +1,7 @@
 # react-scratch
 
+**Babel7 is out!**
+
 This repository keeps all packages up to date with the latest version.
 
 **Get started**
@@ -12,4 +14,6 @@ This repository keeps all packages up to date with the latest version.
 
 - react v16.4.2
 
-- webpack v4.16.5
+- webpack v4.17.1
+
+- babel 7
