@@ -1,6 +1,6 @@
 # react-scratch
 
-This repository keeps all packages up to date with the latest version.
+This is the *babel6* branch. Some packages are outdated. Checkout to the *master* branch for latest versions of all packages.
 
 **Get started**
 
