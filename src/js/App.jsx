@@ -10,19 +10,27 @@ class App extends React.Component {
     }
   }
 
-  handleToggle = () => {
-    this.setState(state => ({
-      toggle: !state.toggle
-    }));
+  renderContent = () => {
+    return (
+      <p>
+        Thanks for using&nbsp;
+        <a 
+          href="https://github.com/yuqingc/react-scratch"
+          target="_blank"
+        >
+          react-scratch
+        </a>
+      </p>
+    );
   }
   
   render () {
     return (
-      <div>
-        <p>toggle: {this.state.toggle ? "true" : "false"}</p>
-        <button onClick={this.handleToggle}>Toggle</button>
+      <div style={{textAlign: 'center'}}>
+        <h1>Yeah! Everything works!</h1>
+        {this.renderContent()}
       </div>
-    )
+    );
   }
 }
 

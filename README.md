@@ -1,6 +1,6 @@
 # react-scratch
 
-**Babel7 is out!**
+**Babel 7 is released!**
 
 This repository keeps all packages up to date with the latest version.
 
@@ -10,14 +10,16 @@ This repository keeps all packages up to date with the latest version.
 
 - `yarn run start` or `npm run start`
 
+Remember to remove the entire `.git` repository if you need to build your own project based on `react-scratch`
+
 **Primary packages**
 
-- react v16.4.2
+- react v16.6.3
 
-- webpack v4.17.1
+- webpack v4.27.1
 
-- babel 7
+- babel v7.2.2
 
 **Use older version of Babel**
 
-If you need babel of which version is earlier than 7.0. Check out [babel6 branch](https://github.com/yuqingc/react-scratch/tree/babel6).
+If you need babel of which version is earlier than 7.0, check out [babel6 branch](https://github.com/yuqingc/react-scratch/tree/babel6).
