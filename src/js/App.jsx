@@ -1,7 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
+
+// Hook example
+function Example() {
+  // Declare a new state variable, which we'll call "count"
+  const [count, setCount] = useState(0);
+
+  return (
+    <div>
+      <p>This is an example for the new Hooks. You clicked {count} times</p>
+      <button onClick={() => setCount(count + 1)}>
+        Click me
+      </button>
+    </div>
+  );
+}
 
 // Make sure everything works
-class App extends React.Component {
+export class App extends React.Component {
 
   constructor(props) {
     super(props);
@@ -10,6 +25,7 @@ class App extends React.Component {
     }
   }
 
+  // Test if the inline arrow function works
   renderContent = () => {
     return (
       <p>
@@ -29,9 +45,8 @@ class App extends React.Component {
       <div style={{textAlign: 'center'}}>
         <h1>Yeah! Everything works!</h1>
         {this.renderContent()}
+        <Example/>
       </div>
     );
   }
 }
-
-export default App;
