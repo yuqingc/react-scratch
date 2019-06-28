@@ -7,9 +7,12 @@ function Example() {
 
   return (
     <div>
-      <p>This is an example for the new Hooks. You clicked {count} times</p>
+      <p>Here is an example of the new Hooks. You clicked {count} time{count !== 1 && 's'}</p>
       <button onClick={() => setCount(count + 1)}>
-        Click me
+        Increase by 1
+      </button>
+      <button onClick={() => setCount(count - 1)} disabled={count <= 0}>
+        Decrease by 1
       </button>
     </div>
   );
