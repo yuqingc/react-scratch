@@ -16,9 +16,9 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 - react v16.8.3
 
-- webpack v4.35
+- webpack v4.39
 
-- babel v7.3
+- babel v7.5
 
 **Use older version of Babel**
 
