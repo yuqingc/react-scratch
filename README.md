@@ -14,7 +14,7 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 **Primary packages**
 
-- react v16.8.3
+- react v16.9.0
 
 - webpack v4.39
 
