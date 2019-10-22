@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 // Hook example
-function Example() {
+const Example: React.SFC = () => {
   // Declare a new state variable, which we'll call "count"
   const [count, setCount] = useState(0);
 
