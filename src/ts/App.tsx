@@ -29,7 +29,7 @@ export class App extends React.Component<{}, AppState> {
     super(props);
     this.state = {
       toggle: false,
-    }
+    };
   }
 
   // Test if the inline arrow function works
@@ -40,6 +40,7 @@ export class App extends React.Component<{}, AppState> {
         <a 
           href="https://github.com/yuqingc/react-scratch"
           target="_blank"
+          rel="noopener noreferrer"
         >
           react-scratch
         </a>
