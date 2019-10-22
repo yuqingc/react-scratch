@@ -18,10 +18,14 @@ function Example() {
   );
 }
 
-// Make sure everything works
-export class App extends React.Component {
+interface AppState {
+  toggle: boolean;
+}
 
-  constructor(props) {
+// Make sure everything works
+export class App extends React.Component<{}, AppState> {
+
+  constructor(props: any) {
     super(props);
     this.state = {
       toggle: false,
@@ -46,7 +50,7 @@ export class App extends React.Component {
   render () {
     return (
       <div style={{textAlign: 'center'}}>
-        <h1>Yeah! Everything works!</h1>
+        <h1>Yeah! Everything works!!!</h1>
         {this.renderContent()}
         <Example/>
       </div>
