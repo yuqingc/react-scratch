@@ -12,7 +12,7 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 ## Primary packages
 
-- react v16.10.2
+- react v16.11
 
 - webpack v4.41
 
@@ -25,3 +25,6 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 - [babel6 branch](https://github.com/yuqingc/react-scratch/tree/babel6)
 
+## Roadmap
+
+- [ ] Ship with Webpack 5
