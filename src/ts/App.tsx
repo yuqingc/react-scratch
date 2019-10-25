@@ -1,29 +1,8 @@
-import React, { useState } from 'react';
-
-// Hook example
-const Example: React.SFC = () => {
-  // Declare a new state variable, which we'll call "count"
-  const [count, setCount] = useState(0);
-
-  return (
-    <div>
-      <p>Here is an example of the new Hooks. You clicked {count} time{count !== 1 && 's'}</p>
-      <button onClick={() => setCount(count + 1)}>
-        Increase by 1
-      </button>
-      <button onClick={() => setCount(count - 1)} disabled={count <= 0}>
-        Decrease by 1
-      </button>
-    </div>
-  );
-}
-
-interface AppState {
-  toggle: boolean;
-}
+import React from 'react';
+import './App.scss'
 
 // Make sure everything works
-export class App extends React.Component<{}, AppState> {
+export class App extends React.Component<{}, {}> {
 
   constructor(props: any) {
     super(props);
@@ -35,7 +14,7 @@ export class App extends React.Component<{}, AppState> {
   // Test if the inline arrow function works
   renderContent = () => {
     return (
-      <p>
+      <p className="content">
         Thanks for using&nbsp;
         <a 
           href="https://github.com/yuqingc/react-scratch"
@@ -50,10 +29,9 @@ export class App extends React.Component<{}, AppState> {
   
   render () {
     return (
-      <div style={{textAlign: 'center'}}>
-        <h1>Yeah! Everything works!!!</h1>
+      <div className="container">
+        <h1 className="welcome">Yeah! Everything works!</h1>
         {this.renderContent()}
-        <Example/>
       </div>
     );
   }
