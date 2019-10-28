@@ -1,1 +1,4 @@
-default
+# Edit this file for compatible browsers
+# Please refer to https://github.com/browserslist/browserslist for further configurations
+
+defaults
