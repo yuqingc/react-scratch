@@ -29,10 +29,12 @@ export class App extends React.Component<{}, {}> {
   
   render () {
     return (
-      <div className="container">
-        <h1 className="welcome">Yeah! Everything works!</h1>
-        {this.renderContent()}
-      </div>
+      <React.StrictMode>
+        <div className="container">
+          <h1 className="welcome">Yeah! Everything works!</h1>
+          {this.renderContent()}
+        </div>
+      </React.StrictMode>
     );
   }
 }
