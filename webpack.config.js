@@ -8,12 +8,18 @@ const devMode = process.env.NODE_ENV !== 'production';
 module.exports = {
   mode: 'development',
   entry: './src/ts/index.tsx',
+  devtool: "source-map",
   module: {
     rules: [
       {
         test: /\.tsx?$/,
         exclude: /node_modules/,
         loader: 'ts-loader'
+      },
+      {
+        enforce: "pre",
+        test: /\.js$/,
+        loader: "source-map-loader"
       },
       {
         test: /\.(sa|sc|c)ss$/,
@@ -35,7 +41,7 @@ module.exports = {
     contentBase: path.resolve(__dirname, "dist"),
     compress: true,
     port: 8080,
-    host: '0.0.0.0',
+    host: '0.0.0.0'
   },
   resolve: {
     extensions: [ '.jsx', '.js', '.ts', '.tsx' ],

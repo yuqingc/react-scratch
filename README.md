@@ -16,7 +16,7 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 - webpack v4.41
 
-- TypeScript v3.6
+- TypeScript v3.7
 
 
 ## Deprecated versions

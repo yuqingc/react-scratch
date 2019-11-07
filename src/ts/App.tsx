@@ -1,8 +1,12 @@
 import React from 'react';
 import './App.scss'
 
+interface AppState {
+  toggle: boolean;
+}
+
 // Make sure everything works
-export class App extends React.Component<{}, {}> {
+export class App extends React.Component<{}, AppState> {
 
   constructor(props: any) {
     super(props);
