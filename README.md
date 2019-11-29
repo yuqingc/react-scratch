@@ -12,7 +12,7 @@ Remember to remove the entire `.git` repository if you need to build your own pr
 
 ## Primary packages
 
-- react v16.11
+- react v16.12
 
 - webpack v4.41
 
