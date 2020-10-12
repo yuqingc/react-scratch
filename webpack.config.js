@@ -7,7 +7,7 @@ const devMode = process.env.NODE_ENV !== 'production';
 
 module.exports = {
   mode: 'development',
-  entry: './src/ts/index.tsx',
+  entry: './src/index.tsx',
   devtool: "source-map",
   module: {
     rules: [
@@ -53,9 +53,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, './src/index.html'),
+      template: path.resolve(__dirname, './assets/index.html'),
       title: 'react-scratch',
-      favicon: 'src/favicon.ico'
+      favicon: 'assets/favicon.ico'
     }),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
