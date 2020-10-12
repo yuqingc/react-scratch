@@ -20,17 +20,6 @@ SASS_BINARY_SITE=https://npm.taobao.org/mirrors/node-sass/  yarn install --regis
 
 - react v16.13
 
-- webpack v4.43
+- webpack v5.0
 
-- TypeScript v3.9
-
-
-## Deprecated versions
-
-- [js branch](https://github.com/yuqingc/react-scratch/tree/js) JS + Babel. No updating anymore
-
-- [babel6 branch](https://github.com/yuqingc/react-scratch/tree/babel6)
-
-## Roadmap
-
-- [ ] Ship with Webpack 5
+- TypeScript v4.0
