@@ -1,4 +1,8 @@
-# react-scratch
+# react-scratch(Deprecated)
+
+*Please use [Create React App](https://create-react-app.dev/)*
+
+---
 
 This is a starter project using Webpack + React + TypeScript. We are trying to keep all packages up to date with the latest version.
 
